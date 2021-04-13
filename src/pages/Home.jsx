@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import "./Home.css";
+
 import StressReliever from "../components/StressReliever";
 
 const stringifyDate = date =>
@@ -14,8 +16,8 @@ const Home = () => {
 
   return (
     <>
-      <h1>News Hub</h1>
-      <div>
+      <h1 className="center">News Hub</h1>
+      <div className="center">
         Last Updated: {time}
         <button onClick={updateTime}>Refresh</button>
       </div>
