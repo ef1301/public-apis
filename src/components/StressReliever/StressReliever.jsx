@@ -1,7 +1,13 @@
 import React from "react";
 
-const StressReliever = ({ tick }) => {
-  return <>Take it to the next level!</>;
+import Joke from "./Joke";
+
+const StressReliever = () => {
+  return (
+    <>
+      <Joke />
+    </>
+  );
 };
 
 export default StressReliever;
