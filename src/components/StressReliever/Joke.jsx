@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
+import "./Joke.css";
+
 const Joke = () => {
   const [joke, setJoke] = useState("");
 
@@ -14,13 +16,12 @@ const Joke = () => {
     setup();
   }, []);
 
-  console.log(joke);
   return (
-    <>
+    <div id="joke">
       {joke.setup}
       <br />
-      {joke.punchline}
-    </>
+      <span className="spoiler">{joke.punchline}</span>
+    </div>
   );
 };
 
