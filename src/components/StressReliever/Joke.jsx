@@ -3,7 +3,7 @@ import axios from "axios";
 
 import "./Joke.css";
 
-const Joke = () => {
+const Joke = ({ time }) => {
   const [joke, setJoke] = useState("");
 
   useEffect(() => {
@@ -14,7 +14,7 @@ const Joke = () => {
     };
 
     setup();
-  }, []);
+  }, [time]);
 
   return (
     <div id="joke">

@@ -2,10 +2,10 @@ import React from "react";
 
 import Joke from "./Joke";
 
-const StressReliever = () => {
+const StressReliever = ({ time }) => {
   return (
     <>
-      <Joke />
+      <Joke time={time} />
     </>
   );
 };
