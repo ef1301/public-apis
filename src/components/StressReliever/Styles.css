@@ -28,3 +28,17 @@
     width: 95%;
     margin: auto;
 }
+
+.activity {
+    display: flex;
+    width: 50rem;
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(207, 218, 223);
+    color: rgb(225, 65, 65);
+    font-size: 30px;
+    margin-left:350px;
+    font-family:arial;
+  }

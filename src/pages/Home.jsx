@@ -16,7 +16,7 @@ const Home = () => {
 
   return (
     <>
-      <h1 className="center">News Hub</h1>
+      <h1 className="center">News/Joke/Meme/Bored APIs</h1>
       <div className="center">
         Last Updated: {time}
         <button onClick={updateTime}>Refresh</button>
