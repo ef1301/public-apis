@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-import "./Joke.css";
+import "./Styles.css";
 
 const Joke = ({ time }) => {
   const [joke, setJoke] = useState("");
