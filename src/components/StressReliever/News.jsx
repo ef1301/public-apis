@@ -19,14 +19,14 @@ const News = ({ time }) => {
   return (
       <>
       {article !== null && 
-                <div id="article">
-                <a href={article.url}>{article.title}</a>
-                {/*<img src={article.urlToImage}></img>*/}
-                <br/>
-                {article.author}
-                {article.publishedAt}
+        <div id="article">
+            <a href={article.url} id="article-title">{article.title}</a><br/>
+            {/*<img src={article.urlToImage}></img>*/}
+            <span id="article-details">{article.author}: {article.publishedAt}</span>
+            <div id="article-description">
                 {article.description}
-              </div>
+            </div>
+        </div>
       }
      </>
   );

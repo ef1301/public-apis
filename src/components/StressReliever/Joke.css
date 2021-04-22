@@ -6,3 +6,25 @@
 .spoiler:hover{
     color: black;
 }
+
+#article {
+    margin: 2vh auto;
+    background-color: #faf9f9;
+    padding: 2vh 2vw;
+}
+
+#article-title {
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    color: #2f3e46;
+}
+
+#article-details {
+    color: #6d6875;
+}
+
+#article-description {
+    width: 95%;
+    margin: auto;
+}
