@@ -3,6 +3,7 @@ import React from "react";
 import Joke from "./Joke";
 import Waifu from "./Waifu";
 import News from './News';
+import Meme from './Meme';
 
 const StressReliever = ({ time }) => {
   return (
@@ -13,6 +14,7 @@ const StressReliever = ({ time }) => {
 
       <Joke time={time} />
       <News time={time}/>
+      <Meme time={time}/>
     </>
   );
 };
