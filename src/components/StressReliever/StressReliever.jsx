@@ -2,6 +2,7 @@ import React from "react";
 
 import Joke from "./Joke";
 import Waifu from "./Waifu";
+import News from './News';
 
 const StressReliever = ({ time }) => {
   return (
@@ -11,6 +12,7 @@ const StressReliever = ({ time }) => {
       </div>
 
       <Joke time={time} />
+      <News time={time}/>
     </>
   );
 };
